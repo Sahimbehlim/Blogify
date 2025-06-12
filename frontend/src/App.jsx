@@ -34,6 +34,8 @@ const App = () => {
           </Route>
         </Routes>
       </Router>
+
+      <Toaster toastOptions={{ className: "", style: { fontSize: "13px" } }} />
     </div>
   );
 };
