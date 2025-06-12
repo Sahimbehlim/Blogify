@@ -1,7 +1,7 @@
-import React from "react";
+import BlogLayout from "../../components/layouts/BlogLayout/BlogLayout";
 
 const BlogLandingPage = () => {
-  return <div>BlogLandingPage</div>;
+  return <BlogLayout>BlogLandingPage</BlogLayout>;
 };
 
 export default BlogLandingPage;
